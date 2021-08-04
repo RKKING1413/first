@@ -1,10 +1,16 @@
   
 // Q.1 > How to fetch the millisecond according to universal time from a given Date object?
+                                    
 
-console.log("start....");                                      // test to check if js file is linked or not.
+ var date1 = new Date('january 15 2000 05:35:20.1320');  
 
- var dateToday = new Date('October 15 1996 05:35:32');      // had to remove milisecond part as it was showing invalid date.
+console.log(date1.toDateString());                     
+console.log(date1);
+console.log(date1.getMilliseconds());  
 
-console.log(dateToday.toDateString());                      // printing the full date in string and readable format
-let result = dateToday.setMilliseconds(77);                // setting milisecond again as 77 (as per the question)
-console.log(dateToday.getMilliseconds());  
+/*
+"2000-01-15T00:05:20.132Z"
+
+132
+
+*/
