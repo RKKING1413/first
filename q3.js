@@ -1,6 +1,5 @@
 //Q.3 > What will be the output of the following code?
 
-console.log("start....");     // test to check if js file is linked or not.
 var Employee =
 {
 company: 'Rohit'
